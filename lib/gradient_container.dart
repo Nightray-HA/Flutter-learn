@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:bismillah_udemy/styled_text.dart';
+import 'package:bismillah_udemy/dice_roller.dart';
+// import 'package:bismillah_udemy/styled_text.dart';
 
 var startAlignment = Alignment.topLeft;
 var endAlignment = Alignment.bottomRight;
@@ -19,7 +20,7 @@ class GradientContainer extends StatelessWidget {
           colors: colors,
         ),
       ),
-      child: Center(child: StyledText('Hilal Abdullah')),
+      child: const DiceRoller(),
     );
   }
 }
